@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Evene</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="getCitations">Get Citations</string>
+    <string name="descriptionActivity">Affichage des citations en séparant auteur et citation</string>
+
+</resources>
