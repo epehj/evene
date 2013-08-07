@@ -71,8 +71,8 @@ public class EveneHandler extends DefaultHandler {
 			final ArrayList<Map<String, String>> list = new ArrayList<Map<String, String>>();
 			for (final Citation c : citations) {
 				final Map<String, String> temp = new HashMap<String, String>();
-				temp.put("Auteur", c.getAuteur());
-				temp.put("Citation", c.getCitation());
+				temp.put("auteur", c.getAuteur());
+				temp.put("citation", c.getCitation());
 				list.add(temp);
 			}
 			return list;

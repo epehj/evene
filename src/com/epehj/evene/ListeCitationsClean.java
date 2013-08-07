@@ -31,7 +31,7 @@ public class ListeCitationsClean extends Activity {
 		}
 
 		if (citations != null) {
-			final SimpleAdapter sa = new SimpleAdapter(getBaseContext(), citations, R.layout.affichageitems, new String[] { "Auteur", "Citation" }, new int[] {
+			final SimpleAdapter sa = new SimpleAdapter(getBaseContext(), citations, R.layout.affichageitems, new String[] { "auteur", "citation" }, new int[] {
 					R.id.auteur, R.id.citation });
 			final ListView lv = (ListView) findViewById(R.id.lvComplete);
 			lv.setAdapter(sa);
