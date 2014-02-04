@@ -37,7 +37,7 @@
         <!--
 	Widget de l'app         
  -->
-	 <receiver android:name="EveneWidgetProvider" >
+	 <receiver android:name="com.epehj.evene.widget.EveneWidget" >
 	    <intent-filter>
 	        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 	    </intent-filter>

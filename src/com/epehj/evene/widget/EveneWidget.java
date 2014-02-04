@@ -1,4 +1,4 @@
-package widget;
+package com.epehj.evene.widget;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
