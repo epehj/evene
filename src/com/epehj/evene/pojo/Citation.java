@@ -12,8 +12,8 @@ public class Citation {
 
 	public void setCitation(final char[] ch, final int start, final int length) {
 		phrase.append(new String(ch, start, length));
-		auteur = phrase.substring(0, phrase.indexOf("-") - 1);
-		citation = phrase.substring(phrase.indexOf("-") + 1);
+		auteur = phrase.substring(0, phrase.indexOf(" -"));
+		citation = phrase.substring(phrase.indexOf(" -") + 3);
 	}
 
 	public String getAuteur() {
